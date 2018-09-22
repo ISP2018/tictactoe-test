@@ -3,14 +3,13 @@ package tictactoe;
 import static org.junit.Assert.*;
 
 import java.util.Collection;
-
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.junit.runners.Parameterized.Parameters;
 
 /**
- * Test for known issues in the TicTacToe class.
+ * Test the behavior of the TicTacToe class.
  * The tests use a JUnit parameter to vary the board size.
  *
  * Requires: JUnit 4, preferrably 4.12 or newer.
